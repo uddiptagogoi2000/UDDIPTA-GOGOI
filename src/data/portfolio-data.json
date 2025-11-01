@@ -1,0 +1,284 @@
+{
+  "profile": {
+    "name": "Uddipta Gogoi",
+    "title": "Full Stack Developer",
+    "bio": "Passionate full-stack developer with expertise in building scalable web applications using modern technologies. I love creating beautiful, performant, and user-friendly experiences.",
+    "detailedBio": "I'm a full-stack developer based in India, specializing in React, Next.js, and Node.js. I focus on writing clean, maintainable code and building accessible web applications that users love. When I'm not coding, I enjoy contributing to open-source projects and learning new technologies.",
+    "email": "uddiptagogoi@gmail.com",
+    "phone": "+91 7002XXXXXX",
+    "location": "India",
+    "avatar": "/images/avatar.jpg",
+    "availability": "Open to opportunities"
+  },
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/uddiptagogoi",
+      "icon": "github",
+      "username": "uddiptagogoi"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/uddiptagogoi",
+      "icon": "linkedin",
+      "username": "uddiptagogoi"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/uddiptagogoi",
+      "icon": "twitter",
+      "username": "@uddiptagogoi"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "level": 90,
+      "category": "Frontend",
+      "years": 3,
+      "description": "Building interactive user interfaces"
+    },
+    {
+      "name": "Next.js",
+      "level": 88,
+      "category": "Frontend",
+      "years": 2,
+      "description": "Server-side rendering and static generation"
+    },
+    {
+      "name": "TypeScript",
+      "level": 85,
+      "category": "Frontend",
+      "years": 2,
+      "description": "Type-safe development"
+    },
+    {
+      "name": "JavaScript",
+      "level": 90,
+      "category": "Frontend",
+      "years": 4,
+      "description": "Modern ES6+ development"
+    },
+    {
+      "name": "HTML/CSS",
+      "level": 95,
+      "category": "Frontend",
+      "years": 4,
+      "description": "Semantic markup and responsive design"
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": 85,
+      "category": "Frontend",
+      "years": 2,
+      "description": "Utility-first CSS framework"
+    },
+    {
+      "name": "Node.js",
+      "level": 82,
+      "category": "Backend",
+      "years": 2,
+      "description": "Server-side JavaScript runtime"
+    },
+    {
+      "name": "Express",
+      "level": 80,
+      "category": "Backend",
+      "years": 2,
+      "description": "Web application framework"
+    },
+    {
+      "name": "MongoDB",
+      "level": 75,
+      "category": "Database",
+      "years": 1,
+      "description": "NoSQL database management"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 70,
+      "category": "Database",
+      "years": 1,
+      "description": "Relational database management"
+    },
+    {
+      "name": "Git",
+      "level": 88,
+      "category": "Tools",
+      "years": 4,
+      "description": "Version control system"
+    },
+    {
+      "name": "Docker",
+      "level": 70,
+      "category": "Tools",
+      "years": 1,
+      "description": "Containerization platform"
+    }
+  ],
+  "projects": [
+    {
+      "id": "minimalist-portfolio",
+      "title": "Minimalist Portfolio Website",
+      "shortDescription": "A clean, responsive portfolio showcasing projects with detailed case-study pages.",
+      "fullDescription": "A minimalist portfolio website built with Next.js and Tailwind CSS. Features include dynamic project routing, image optimization, and a modern design system. The project demonstrates best practices in React component architecture and responsive design.",
+      "background": "This portfolio project was built to showcase my work and skills. It follows modern web development practices including server-side rendering, optimized images, and accessibility standards. The design emphasizes clean aesthetics and user experience.",
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "tags": ["Front End Development", "React", "Next.js", "TypeScript"],
+      "coverImage": "/images/projects/minimalist-portfolio-cover.jpg",
+      "images": {
+        "hero": "/images/projects/minimalist-portfolio-hero.jpg",
+        "previews": [
+          "/images/projects/minimalist-portfolio-preview-1.jpg",
+          "/images/projects/minimalist-portfolio-preview-2.jpg"
+        ]
+      },
+      "liveUrl": "https://portfolio-uddipta.vercel.app",
+      "githubUrl": "https://github.com/uddiptagogoi/minimalist-portfolio-website",
+      "featured": true,
+      "category": "Web Development"
+    },
+    {
+      "id": "single-page-portfolio",
+      "title": "Single Page Developer Portfolio",
+      "shortDescription": "A polished single-page developer portfolio with smooth scrolling and animations.",
+      "fullDescription": "A modern single-page portfolio built with React and SCSS. Features include smooth scroll navigation, form validation, and a responsive design. The project demonstrates advanced CSS techniques and React best practices.",
+      "background": "This project showcases a clean, professional portfolio design with focus on user experience. It includes sections for introduction, experience, projects, and contact. The design is fully responsive and accessible.",
+      "technologies": ["React", "SCSS", "JavaScript", "Vite"],
+      "tags": ["Front End Development", "React", "SCSS", "JavaScript"],
+      "coverImage": "/images/projects/single-page-portfolio-cover.jpg",
+      "images": {
+        "hero": "/images/projects/single-page-portfolio-hero.jpg",
+        "previews": [
+          "/images/projects/single-page-portfolio-preview-1.jpg",
+          "/images/projects/single-page-portfolio-preview-2.jpg"
+        ]
+      },
+      "liveUrl": "https://single-page-portfolio.vercel.app",
+      "githubUrl": "https://github.com/uddiptagogoi/single-page-developer-portfolio",
+      "featured": true,
+      "category": "Web Development"
+    },
+    {
+      "id": "ecommerce-platform",
+      "title": "E-commerce Platform",
+      "shortDescription": "Full-stack e-commerce platform with authentication, payment processing, and admin dashboard.",
+      "fullDescription": "A complete e-commerce solution built with Next.js, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, payment integration, and an admin dashboard for order management.",
+      "background": "This project demonstrates full-stack development skills including RESTful API design, database modeling, and third-party service integration. It implements secure authentication and payment processing.",
+      "technologies": ["Next.js", "Node.js", "MongoDB", "Stripe", "JWT"],
+      "tags": ["Full Stack Development", "Next.js", "Node.js", "MongoDB"],
+      "coverImage": "/images/projects/ecommerce-cover.jpg",
+      "images": {
+        "hero": "/images/projects/ecommerce-hero.jpg",
+        "previews": [
+          "/images/projects/ecommerce-preview-1.jpg",
+          "/images/projects/ecommerce-preview-2.jpg"
+        ]
+      },
+      "liveUrl": "https://ecommerce-demo.vercel.app",
+      "githubUrl": "https://github.com/uddiptagogoi/ecommerce-platform",
+      "featured": false,
+      "category": "Full Stack"
+    },
+    {
+      "id": "task-management-app",
+      "title": "Task Management App",
+      "shortDescription": "A collaborative task management application with real-time updates and team collaboration.",
+      "fullDescription": "A modern task management application built with React and Firebase. Features include real-time synchronization, team collaboration, drag-and-drop task organization, and notifications.",
+      "background": "This project showcases real-time application development using Firebase. It implements efficient state management and provides a smooth user experience with real-time updates.",
+      "technologies": ["React", "Firebase", "TypeScript", "Material-UI"],
+      "tags": ["Front End Development", "React", "Firebase", "Real-time"],
+      "coverImage": "/images/projects/task-manager-cover.jpg",
+      "images": {
+        "hero": "/images/projects/task-manager-hero.jpg",
+        "previews": [
+          "/images/projects/task-manager-preview-1.jpg",
+          "/images/projects/task-manager-preview-2.jpg"
+        ]
+      },
+      "liveUrl": "https://task-manager-demo.vercel.app",
+      "githubUrl": "https://github.com/uddiptagogoi/task-management-app",
+      "featured": false,
+      "category": "Web Development"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "position": "Full Stack Developer",
+      "startDate": "2023-01",
+      "endDate": "present",
+      "description": "Developing and maintaining web applications using React, Next.js, and Node.js. Collaborating with cross-functional teams to deliver high-quality software solutions. Implementing responsive designs and optimizing application performance.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "achievements": [
+        "Improved application performance by 40% through code optimization",
+        "Led migration to TypeScript, reducing bugs by 30%",
+        "Mentored junior developers and conducted code reviews"
+      ]
+    },
+    {
+      "company": "Digital Agency",
+      "position": "Frontend Developer",
+      "startDate": "2021-06",
+      "endDate": "2022-12",
+      "description": "Built responsive web applications for clients using React and modern CSS. Worked closely with designers to implement pixel-perfect UI components. Ensured cross-browser compatibility and accessibility standards.",
+      "technologies": ["React", "JavaScript", "CSS3", "HTML5", "REST APIs"],
+      "achievements": [
+        "Delivered 15+ client projects on time and within budget",
+        "Implemented design system reducing development time by 25%",
+        "Improved site performance scores by 35%"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "position": "Junior Developer",
+      "startDate": "2020-01",
+      "endDate": "2021-05",
+      "description": "Developed and maintained frontend features for a SaaS platform. Collaborated with backend team to integrate APIs. Participated in agile development processes.",
+      "technologies": ["JavaScript", "React", "CSS", "Git"],
+      "achievements": [
+        "Built reusable component library",
+        "Reduced bundle size by 20% through code splitting",
+        "Implemented responsive design for mobile users"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "startDate": "2016",
+      "endDate": "2020",
+      "description": "Focused on software engineering, data structures, algorithms, and web development. Completed coursework in database systems, computer networks, and software project management.",
+      "gpa": "3.8/4.0",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Software Engineering",
+        "Web Development",
+        "Computer Networks"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06",
+      "url": "https://aws.amazon.com/certification/"
+    },
+    {
+      "name": "React Developer Certification",
+      "issuer": "Meta",
+      "date": "2022-09",
+      "url": "https://www.coursera.org/"
+    }
+  ]
+}
